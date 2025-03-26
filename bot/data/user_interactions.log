@@ -1,0 +1,21 @@
+2025-03-26 16:27:58,518 - __main__ - INFO - Bot initialization...
+2025-03-26 16:27:58,694 - aiogram - INFO - Bot: ְֲֳ׃ עוסע במע [@fgau_testbot]
+2025-03-26 16:27:58,805 - aiogram - WARNING - Updates were skipped successfully.
+2025-03-26 16:27:58,806 - __main__ - INFO - Starting bot...
+2025-03-26 16:27:58,809 - __main__ - INFO - Bot started successfully!
+2025-03-26 16:27:58,810 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-03-26 16:28:18,510 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:28:18', 'user_id': 1142054677, 'action': 'start_command', 'additional_data': None}
+2025-03-26 16:28:28,751 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:28:28', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'abituriyent_main'}}
+2025-03-26 16:28:31,153 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:28:31', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'info_priyem'}}
+2025-03-26 16:28:33,629 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:28:33', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_abituriyent_main'}}
+2025-03-26 16:28:34,979 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:28:34', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'priyemnaya_komissiya'}}
+2025-03-26 16:28:38,032 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:28:38', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_abituriyent_main'}}
+2025-03-26 16:28:41,578 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:28:41', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 16:28:43,520 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:28:43', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'about_university'}}
+2025-03-26 16:28:53,786 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:28:53', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 16:28:55,772 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:28:55', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'contacts'}}
+2025-03-26 16:28:57,174 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:28:57', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 16:29:01,068 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:29:01', 'user_id': 1142054677, 'action': 'unknown_message', 'additional_data': {'text': '/start'}}
+2025-03-26 16:29:01,068 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:29:01', 'user_id': 1142054677, 'action': 'search', 'additional_data': {'query': '/start'}}
+2025-03-26 16:29:02,495 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:29:02', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 16:29:58,150 - utils.logger - INFO - User interaction: {'timestamp': '2025-03-26 16:29:58', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'search'}}

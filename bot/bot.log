@@ -1,0 +1,45 @@
+2025-03-26 15:54:47,446 - aiogram - INFO - Bot: ‘√¿” ÚÂÒÚ [@fgau_testbot]
+2025-03-26 15:54:47,559 - aiogram - WARNING - Updates were skipped successfully.
+2025-03-26 15:54:47,559 - __main__ - INFO - Bot started
+2025-03-26 15:54:47,566 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-03-26 15:54:57,612 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:54:57', 'user_id': 1142054677, 'action': 'start_command', 'additional_data': None}
+2025-03-26 15:55:04,752 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:55:04', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'about_university'}}
+2025-03-26 15:55:06,724 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:55:06', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'rukovodstvo'}}
+2025-03-26 15:55:12,535 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:55:12', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_about_university'}}
+2025-03-26 15:55:13,590 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:55:13', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 15:55:16,219 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:55:16', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'feedback'}}
+2025-03-26 15:55:19,778 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:55:19', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'feedback'}}
+2025-03-26 15:55:24,487 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:55:24', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'contacts'}}
+2025-03-26 15:55:28,625 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:55:28', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 15:56:19,263 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:56:19', 'user_id': 1142054677, 'action': 'unknown_message', 'additional_data': {'text': '/start'}}
+2025-03-26 15:56:19,264 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:56:19', 'user_id': 1142054677, 'action': 'search', 'additional_data': {'query': '/start'}}
+2025-03-26 15:56:22,052 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 15:56:22', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 16:09:24,459 - __main__ - INFO - Bot shutdown
+2025-03-26 16:09:24,459 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2025-03-26 16:09:24,460 - aiogram - WARNING - Goodbye!
+2025-03-26 16:09:27,561 - aiogram - INFO - Bot: ‘√¿” ÚÂÒÚ [@fgau_testbot]
+2025-03-26 16:09:27,668 - aiogram - WARNING - Updates were skipped successfully.
+2025-03-26 16:09:27,668 - __main__ - INFO - Bot started
+2025-03-26 16:09:27,741 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-03-26 16:09:39,367 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:09:39', 'user_id': 1142054677, 'action': 'start_command', 'additional_data': None}
+2025-03-26 16:09:54,651 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:09:54', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'social_media'}}
+2025-03-26 16:09:58,252 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:09:58', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 16:09:59,456 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:09:59', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'search'}}
+2025-03-26 16:10:02,952 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:10:02', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'feedback'}}
+2025-03-26 16:10:11,985 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:10:11', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 16:10:13,529 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:10:13', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'contacts'}}
+2025-03-26 16:10:17,948 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:10:17', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 16:10:19,549 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:10:19', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'about_university'}}
+2025-03-26 16:10:27,142 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:10:27', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 16:10:29,516 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:10:29', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'specialties_menu'}}
+2025-03-26 16:10:31,823 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:10:31', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'master_specialties'}}
+2025-03-26 16:10:33,328 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:10:33', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_specialties_menu'}}
+2025-03-26 16:10:43,773 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:10:43', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 16:11:55,506 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:11:55', 'user_id': 1142054677, 'action': 'unknown_message', 'additional_data': {'text': '/start'}}
+2025-03-26 16:11:55,506 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:11:55', 'user_id': 1142054677, 'action': 'search', 'additional_data': {'query': '/start'}}
+2025-03-26 16:11:57,323 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:11:57', 'user_id': 1142054677, 'action': 'callback', 'additional_data': {'data': 'back_to_main'}}
+2025-03-26 16:13:17,014 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:13:17', 'user_id': 987986024, 'action': 'start_command', 'additional_data': None}
+2025-03-26 16:13:42,098 - __main__ - INFO - User interaction: {'timestamp': '2025-03-26 16:13:42', 'user_id': 987986024, 'action': 'callback', 'additional_data': {'data': 'abituriyent_main'}}
+2025-03-26 16:25:26,447 - __main__ - INFO - Bot shutdown
+2025-03-26 16:25:26,447 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2025-03-26 16:25:26,448 - aiogram - WARNING - Goodbye!
