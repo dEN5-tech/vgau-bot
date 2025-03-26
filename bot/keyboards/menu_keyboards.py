@@ -106,7 +106,7 @@ def create_document_keyboard(documents, parent_callback, page_num=1, parent_menu
     Returns:
         InlineKeyboardMarkup: The document keyboard with pagination
     """
-    from bot.config import ITEMS_PER_PAGE
+    from ..config import ITEMS_PER_PAGE
     
     keyboard = InlineKeyboardMarkup(row_width=1)
     
