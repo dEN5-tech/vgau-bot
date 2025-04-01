@@ -1,4 +1,4 @@
-use tg_menu_editor_wasm::MenuEditorApp;
+use tg_menu_editor_wasm::WorkflowEditorApp;
 
 #[cfg(not(target_arch = "wasm32"))]
 fn main() {
@@ -13,7 +13,7 @@ fn main() {
     eframe::run_native(
         "ВГАУ Бот Меню Редактор",
         native_options,
-        Box::new(|cc| Box::new(MenuEditorApp::new(cc))),
+        Box::new(|cc| Box::new(WorkflowEditorApp::new(cc))),
     ).unwrap();
 }
 
