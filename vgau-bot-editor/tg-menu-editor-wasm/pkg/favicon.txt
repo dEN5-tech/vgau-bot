@@ -1,0 +1,4 @@
+This is a placeholder for favicon.ico
+
+In a real project, you would place a 16x16 or 32x32 .ico file here.
+You can generate one using online tools or image editors. 

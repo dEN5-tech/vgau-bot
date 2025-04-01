@@ -1,0 +1,20 @@
+{
+  "name": "tg-menu-editor-wasm",
+  "type": "module",
+  "collaborators": [
+    "Your Name <your.email@example.com>"
+  ],
+  "description": "Редактор структуры меню для телеграм-бота",
+  "version": "0.1.0",
+  "license": "MIT",
+  "files": [
+    "tg_menu_editor_wasm_bg.wasm",
+    "tg_menu_editor_wasm.js",
+    "tg_menu_editor_wasm.d.ts"
+  ],
+  "main": "tg_menu_editor_wasm.js",
+  "types": "tg_menu_editor_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

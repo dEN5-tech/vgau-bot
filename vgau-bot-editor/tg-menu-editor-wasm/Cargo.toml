@@ -1,0 +1,46 @@
+[package]
+name = "tg-menu-editor-wasm"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Редактор структуры меню для телеграм-бота"
+readme = "README.md"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+egui = "0.22.0"
+egui_node_graph = "0.4.0"
+eframe = { version = "0.22.0", features = ["persistence"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rfd = "0.11.3"
+anyhow = "1.0"
+getrandom = { version = "0.2", features = ["js"] }
+uuid = { version = "1.2", features = ["v4", "js"] }
+rand = "0.8.5"
+winapi = { version = "0.3.9", features = ["winuser"] }
+
+# Зависимости только для сборки в wasm
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
+web-sys = { version = "0.3", features = [
+  "Document",
+  "Window",
+  "Element",
+  "FileReader",
+  "Blob",
+  "HtmlInputElement",
+  "Clipboard",
+  "ClipboardEvent",
+  "Navigator",
+  "HtmlTextAreaElement",
+  "CssStyleDeclaration",
+]}
+js-sys = "0.3"
+console_error_panic_hook = "0.1.7"

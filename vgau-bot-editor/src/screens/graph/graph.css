@@ -1,0 +1,141 @@
+.graph-container {
+  position: relative;
+  background-color: #1e1e1e;
+  border: none;
+  height: 100%;
+  min-height: 600px;
+}
+
+/* Node styling */
+.node {
+  fill: #383838;
+  stroke: #666;
+  stroke-width: 2px;
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3));
+  rx: 8px;
+  ry: 8px;
+}
+
+.node-title {
+  fill: #eee;
+  font-weight: bold;
+  font-size: 14px;
+  user-select: none;
+  dominant-baseline: hanging;
+}
+
+.node-port-input, .node-port-output {
+  fill: #555;
+  stroke: #aaa;
+  stroke-width: 2px;
+  cursor: pointer;
+}
+
+.node-port-input:hover, .node-port-output:hover {
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+.node-port-input-text, .node-port-output-text {
+  fill: #ccc;
+  font-size: 12px;
+  user-select: none;
+}
+
+.node-content {
+  fill: #2a2a2a;
+  stroke: #555;
+  stroke-width: 1px;
+}
+
+/* Link styling */
+.links line {
+  stroke: #aaa;
+  stroke-width: 2px;
+  stroke-opacity: 0.7;
+  transition: stroke 0.2s ease;
+  cursor: pointer;
+}
+
+.links line:hover {
+  stroke: #6f74dd;
+  stroke-width: 3px;
+}
+
+/* Controls */
+.controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 0.5rem;
+  background-color: #333;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.controls button {
+  background-color: #444;
+  border: 1px solid #555;
+  border-radius: 0.25rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #ddd;
+}
+
+.controls button:hover {
+  background-color: #555;
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  background-color: #333;
+  color: #eee;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 8px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Contextmenu */
+.context-menu {
+  position: absolute;
+  background-color: #2a2a2a;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 5px 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.context-menu-item {
+  padding: 8px 12px;
+  color: #ddd;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.context-menu-item:hover {
+  background-color: #3a3a3a;
+}
+
+.context-menu-separator {
+  height: 1px;
+  background-color: #555;
+  margin: 5px 0;
+}
+
+/* Selection box */
+.selection-box {
+  stroke: #6f74dd;
+  stroke-width: 1.5px;
+  fill: rgba(111, 116, 221, 0.1);
+} 
